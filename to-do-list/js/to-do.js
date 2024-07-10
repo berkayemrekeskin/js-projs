@@ -19,7 +19,7 @@ function addToList()
 
         var newImage = document.createElement("img");
         newImage.className = "tick";
-        newImage.src = "/images/Check-Accept-Correct-512.webp";
+        newImage.src = "../images/Check-Accept-Correct-512.webp";
 
         newButton.appendChild(newImage);
 
