@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #444;
+}
+
+.header {
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    color: rgb(172, 172, 172);
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #FFF, rgb(172, 172, 172));
+    color: #000;
+    margin: 20px auto 0;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: none;
+    outline: 0;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 100%;
+}
+
+.list {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #FFF, rgb(172, 172, 172));
+    color: #000;
+    margin: 100px auto 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: left;
+}
+
+.job {
+    display: flex;
+    justify-content: left;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.job button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 0;
+}
+
+.tick {
+    display: none;
+    width: 100%;
+}
+
+.tick-active {
+    display: block;
+    width: 100%;
+}
+
+
+.job p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
