@@ -9,6 +9,7 @@
 const COLS = 5;
 const ROWS = 6;
 
+var restartButton = document.getElementById("restart-button");
 var checkButton = document.getElementById("check-button");
 var container = document.getElementById("container");
 var index = 0;
@@ -49,7 +50,7 @@ function checkInput(input,lineNumber)
                 {
                     if(input[j] == value && j != i && document.getElementById(`${lineNumber}${j}`).className == "block-empty")
                     {
-                        block.className = "block-occurs";
+                        block.className = "block-contains";
                         break;
                     }
                 }
@@ -161,3 +162,8 @@ checkButton.addEventListener("click", function() {
         startGame(index);
     }
 })
+
+restartButton.addEventListener("click", function() {
+    location.reload();
+}
+)
